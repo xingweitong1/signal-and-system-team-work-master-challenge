@@ -46,13 +46,7 @@ challenge/
 
 在原图上依次叠加高斯噪声（σ=25）与椒盐噪声（2%），生成 `*_mixed.tiff` 后进行 NLM 去噪。
 
-## NLM 默认参数
 
-| 参数 | 默认值 | 含义 |
-| h | 10 | 亮度分量滤波强度 |
-| hColor | 10 | 彩色分量滤波强度 |
-| templateWindowSize | 7 | 块（模板）窗口大小 |
-| searchWindowSize | 21 | 搜索窗口大小 |
 
 ## 技术特点
 
