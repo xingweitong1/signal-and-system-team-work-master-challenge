@@ -8,7 +8,7 @@
 - 与高斯噪声、椒盐噪声图像上的均值滤波进行对比
 - 分析 `sigmaColor`（灰度相似度）与 `sigmaSpace`（空间范围）对去噪与保边的影响
 - 计算 PSNR、SSIM 量化指标
-- 生成对比图与参数分析图
+
 
 ## 安装依赖
 
@@ -36,7 +36,6 @@ python bilateralfilter.py
 advanced/
 ├── bilateralfilter.py   # 双边滤波主脚本
 ├── requirements.txt     # Python 依赖
-├── latexcode.txt        # LaTeX 公式与报告代码
 ├── README.md            # 说明文档
 └── result/              # 输出结果（运行后生成）
     ├── *_bilateral_comparison.png
@@ -54,5 +53,4 @@ advanced/
 ## 技术特点
 
 - 空域非线性滤波，结合高斯空间核与灰度值域核
-- 与均值滤波对比，直观展示保边优势
 - 参数扫描可视化，便于理解去噪与保边的权衡
