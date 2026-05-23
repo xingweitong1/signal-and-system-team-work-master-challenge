@@ -7,7 +7,6 @@
 - 实现非局部均值(NLM)去噪算法
 - 对混合噪声图去噪，与均值滤波、中值滤波对比
 - 计算 PSNR、SSIM 量化评估
-- 生成去噪对比图与指标柱状图
 
 ## 安装依赖
 
@@ -35,7 +34,6 @@ python nlmfilter.py
 challenge/
 ├── nlmfilter.py         # NLM 去噪主脚本
 ├── requirements.txt     # Python 依赖
-├── latexcode.txt        # LaTeX 公式与报告代码
 ├── README.md            # 说明文档
 └── result/              # 输出结果（运行后生成）
     ├── *_mixed.tiff
@@ -51,4 +49,3 @@ challenge/
 ## 技术特点
 
 - 针对混合噪声设计，NLM 利用图像自相似性
-- 与均值、中值滤波横向对比
